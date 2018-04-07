@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not able to get DPI"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="100px"
+        />
+
+    <TextView
+        android:id="@+id/settings1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set your preferred DPI" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginBottom="30px"/>
+
+    <TextView
+        android:id="@+id/Change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manually Change to DPI specified in settings" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:layout_marginBottom="30px"/>
+
+    <TextView
+        android:id="@+id/restore1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manually Restore to DPI specified in settings" />
+
+    <Button
+        android:id="@+id/restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restore" />
+</LinearLayout>

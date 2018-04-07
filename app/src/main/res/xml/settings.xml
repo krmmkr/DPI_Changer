@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="auto_change_dpi"
+        android:summary="Change dpi automatically when you connect input device/display"
+        android:title="Auto change DPI" />
+    <EditTextPreference
+        android:key="desktop_dpi"
+        android:title="Set DPI for Larger Screen"
+        android:persistent="true"
+        android:dialogTitle="Set DPI to view in large screen"
+        android:dialogMessage="normally this value is lower Ex:100 or 200"
+        android:defaultValue="200"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:defaultValue="440"
+        android:dialogMessage="normally this value is Higher Ex:400 or 450"
+        android:dialogTitle="Set DPI to revert back"
+        android:key="restoration_dpi"
+        android:persistent="true"
+        android:inputType="number"
+        android:title="Set Restoration DPI" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="auto_change_orientation"
+        android:summary="Change orientation automatically when you connect input device/display"
+        android:title="Auto change to Landscape Mode" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="auto_change_brightness"
+        android:summary="Dim brightness automatically when you connect input device/display"
+        android:title="Dim brightness" />
+</PreferenceScreen>
